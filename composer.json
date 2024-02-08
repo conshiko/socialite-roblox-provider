@@ -1,0 +1,41 @@
+{
+    "name": "conshiko/socialite-roblox-provider",
+    "description": "🛰️ A Roblox provider for Laravel Socialite.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "socialite",
+        "oauth",
+        "roblox"
+    ],
+    "authors": [
+        {
+            "name": "conshiko",
+            "homepage": "https://github.com/conshiko"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/conshiko/socialite-roblox-provider/issues",
+        "source": "https://github.com/conshiko/socialite-roblox-provider"
+    },
+    "require": {
+        "laravel/socialite": "^4.0|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Conshiko\\Laravel\\Socialite\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Conshiko\\Laravel\\Socialite\\RobloxServiceProvider"
+            ]
+        }
+    }
+}
